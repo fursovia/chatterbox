@@ -4,6 +4,8 @@
 # Chatterbox TTS - FastAPI
 
 ```
+curl -LsSf https://astral.sh/uv/install.sh | sh
+source $HOME/.local/bin/env
 uv run fastapi run app.py
 ```
 
