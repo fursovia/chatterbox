@@ -4,7 +4,7 @@
 # Chatterbox TTS - FastAPI
 
 ```
-uv fastapi run app.py
+uv run fastapi run app.py
 ```
 
 
