@@ -47,7 +47,7 @@ app = FastAPI(title="Chatterbox TTS API", version="0.1.0", lifespan=lifespan)
 
 
 @app.post("/text_to_speech", summary="Convert text to spoken audio", response_class=StreamingResponse)
-async def text_to_speech(payload: TextToSpeechRequest):
+def text_to_speech(payload: TextToSpeechRequest):
     """Generate speech from text and return as a WAV audio stream."""
     model = tts_models["chatterbox"]
 
